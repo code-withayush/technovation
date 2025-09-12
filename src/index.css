@@ -1,0 +1,11 @@
+/* import existing styles */
+@import "./styles/ex.css";
+@import "./styles/about-k.css";
+@import "./styles/intro-i.css";
+@import "./styles/login-s.css";
+@import "./styles/footer.css";
+
+/* small global resets (optional) */
+* { box-sizing: border-box; }
+body { margin: 0; background: #000; color: #fff; }
+a { color: inherit; }
