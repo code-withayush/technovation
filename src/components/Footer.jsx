@@ -1,4 +1,6 @@
 import React from "react";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -22,11 +24,12 @@ const Footer = () => {
           <h3>Contact Us</h3>
           <p>Email: <a href="mailto:rvit@college.edu">rvit@college.edu</a></p>
           <p>Phone: (123) 456-7890</p>
+          <br></br>
           <div className="socials">
-            <a href="https://www.facebook.com/rvitbijnor/"><i className="fab fa-facebook-f"></i></a>
-            <a href="https://x.com/rvitbijnor"><i className="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com/rvitbijnor/"><i className="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/rvitbijnor"><i className="fab fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/rvitbijnor/"><i className="fab fa-facebook-f"><FaFacebook></FaFacebook></i></a>
+            <a href="https://x.com/rvitbijnor"><i className="fab fa-twitter"><FaTwitter></FaTwitter></i></a>
+            <a href="https://www.instagram.com/rvitbijnor/"><i className="fab fa-instagram"><FaInstagram></FaInstagram></i></a>
+            <a href="https://www.linkedin.com/in/rvitbijnor"><i className="fab fa-linkedin-in"><FaLinkedin></FaLinkedin></i></a>
           </div>
         </div>
       </div>
